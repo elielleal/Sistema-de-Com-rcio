@@ -1,0 +1,13 @@
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaApresentacao.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaApresentacao.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaDados.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaNegocio.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaDados.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaNegocio.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.csprojResolveAssemblyReference.cache
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmCategoria.resources
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.csproj.GenerateResource.Cache
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaApresentacao.dll.config
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.Properties.Resources.resources

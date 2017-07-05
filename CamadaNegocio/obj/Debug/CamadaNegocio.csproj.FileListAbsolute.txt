@@ -1,0 +1,7 @@
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\bin\Debug\CamadaNegocio.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\bin\Debug\CamadaNegocio.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\bin\Debug\CamadaDados.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\bin\Debug\CamadaDados.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\obj\Debug\CamadaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\obj\Debug\CamadaNegocio.dll
+C:\Users\ELIEL\Desktop\SysComercio\CamadaNegocio\obj\Debug\CamadaNegocio.pdb

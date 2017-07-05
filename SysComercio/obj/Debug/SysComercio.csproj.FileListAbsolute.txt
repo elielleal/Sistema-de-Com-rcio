@@ -1,0 +1,14 @@
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\SysComercio.exe.config
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\SysComercio.exe
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\SysComercio.pdb
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\CamadaApresentacao.dll
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\CamadaNegocio.dll
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\CamadaDados.dll
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\CamadaApresentacao.pdb
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\CamadaNegocio.pdb
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\bin\Debug\CamadaDados.pdb
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\obj\Debug\SysComercio.csprojResolveAssemblyReference.cache
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\obj\Debug\SysComercio.Properties.Resources.resources
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\obj\Debug\SysComercio.csproj.GenerateResource.Cache
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\obj\Debug\SysComercio.exe
+C:\Users\ELIEL\Desktop\SysComercio\SysComercio\obj\Debug\SysComercio.pdb
