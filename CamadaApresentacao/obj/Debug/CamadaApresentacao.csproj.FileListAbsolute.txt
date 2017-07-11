@@ -11,3 +11,4 @@ C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentac
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.pdb
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\bin\Debug\CamadaApresentacao.dll.config
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.Properties.Resources.resources
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmApresentacao.resources

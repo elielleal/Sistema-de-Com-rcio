@@ -10,16 +10,18 @@ using System.Windows.Forms;
 using CamadaNegocio;
 using CamadaDados;
 
+
 namespace CamadaApresentacao
 {
-    public partial class frmCategoria : Form
+    public partial class frmApresentacao : Form
     {
         private bool eNovo = false;
         private bool eEditar = false;
-        public frmCategoria()
+
+        public frmApresentacao()
         {
             InitializeComponent();
-            this.ttMensagem.SetToolTip(this.txtNome, "Insira o nome da Categoria");
+            this.ttMensagem.SetToolTip(this.txtNome, "Insira o nome da ");
         }
 
         //Mostrar mensagem de confirmação
@@ -37,10 +39,10 @@ namespace CamadaApresentacao
         //Habilitar os text box
         private void Habilitar(bool valor)
         {
-            
+
             this.txtNome.ReadOnly = !valor;
             this.txtDescricao.ReadOnly = !valor;
-            this.txtIdCategoria.ReadOnly = !valor;
+            this.txtIdApresentacao.ReadOnly = !valor;
         }
 
         //Habilitar os botões
@@ -62,14 +64,14 @@ namespace CamadaApresentacao
                 this.btnEditar.Enabled = true;
                 this.btnCancelar.Enabled = false;
             }
-            
+
         }
 
         //ocultar as colunas do grid view
         private void ocultarColunas()
         {
             this.dataLista.Columns[0].Visible = false;
-                 
+
 
         }
 
@@ -84,7 +86,7 @@ namespace CamadaApresentacao
         //Buscar pelo Nome
         private void BuscarNome()
         {
-            this.dataLista.DataSource = NCategoria.BuscarNome(this.txtBuscar.Text);
+            this.dataLista.DataSource = NApresentacao.BuscarNome(this.txtBuscar.Text);
             this.ocultarColunas();
             lblTotal.Text = "Total de Registro: " + Convert.ToString(dataLista.Rows.Count);
         }
@@ -93,14 +95,13 @@ namespace CamadaApresentacao
         private void Limpar()
         {
             this.txtNome.Text = string.Empty;
-            this.txtIdCategoria.Text = string.Empty;
+            this.txtIdApresentacao.Text = string.Empty;
             this.txtDescricao.Text = string.Empty;
         }
 
-        private void frmCategoria_Load(object sender, EventArgs e)
+        private void frmApresentacao_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dbcomercioDataSet.Categoria' table. You can move, or remove it, as needed.
-            this.categoriaTableAdapter.Fill(this.dbcomercioDataSet.Categoria);
+            
             //this.Top = 0;
             //this.Left = 0;
             this.Mostrar();
@@ -126,22 +127,7 @@ namespace CamadaApresentacao
             this.Limpar();
             this.Habilitar(true);
             this.txtNome.Focus();
-            this.txtIdCategoria.Enabled = false;
-        }
-
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-            if (this.txtIdCategoria.Text.Equals(""))
-            {
-                this.MensagemErro("Selecione um registro para inserir");
-            }
-            else
-            {
-                this.eEditar = true;
-                this.botoes();
-                this.Habilitar(true);
-                
-            }
+            this.txtIdApresentacao.Enabled = false;
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
@@ -159,11 +145,11 @@ namespace CamadaApresentacao
                 {
                     if (this.eNovo)
                     {
-                        resp = NCategoria.Inserir(this.txtNome.Text.Trim().ToUpper(), this.txtDescricao.Text.Trim());
+                        resp = NApresentacao.Inserir(this.txtNome.Text.Trim().ToUpper(), this.txtDescricao.Text.Trim());
                     }
                     else
                     {
-                        resp = NCategoria.Editar(Convert.ToInt32(this.txtIdCategoria.Text),
+                        resp = NApresentacao.Editar(Convert.ToInt32(this.txtIdApresentacao.Text),
                             this.txtNome.Text.Trim().ToUpper(),
                             this.txtDescricao.Text.Trim());
                     }
@@ -172,11 +158,13 @@ namespace CamadaApresentacao
                         if (this.eNovo)
                         {
                             this.MensagemOk("Registro Salvo com Sucesso");
-                        }else
+                        }
+                        else
                         {
                             this.MensagemOk("Registro Editado com Sucesso");
                         }
-                    }else
+                    }
+                    else
                     {
                         this.MensagemErro(resp);
                     }
@@ -188,7 +176,8 @@ namespace CamadaApresentacao
                     this.Mostrar();
                 }
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message + ex.StackTrace);
             }
@@ -196,23 +185,25 @@ namespace CamadaApresentacao
 
         private void dataLista_DoubleClick(object sender, EventArgs e)
         {
-            this.txtIdCategoria.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["idcategoria"].Value);
+            this.txtIdApresentacao.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["idapresentacao"].Value);
             this.txtNome.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["nome"].Value);
             this.txtDescricao.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["descricao"].Value);
             this.tabControl1.SelectedIndex = 1;
         }
 
-        private void dataLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnEditar_Click(object sender, EventArgs e)
         {
+            if (this.txtIdApresentacao.Text.Equals(""))
+            {
+                this.MensagemErro("Selecione um registro para inserir");
+            }
+            else
+            {
+                this.eEditar = true;
+                this.botoes();
+                this.Habilitar(true);
 
-        }
-
-        private void dataLista_DoubleClick_1(object sender, EventArgs e)
-        {
-            this.txtIdCategoria.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["idcategoria"].Value);
-            this.txtNome.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["nome"].Value);
-            this.txtDescricao.Text = Convert.ToString(this.dataLista.CurrentRow.Cells["descricao"].Value);
-            this.tabControl1.SelectedIndex = 1;
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -222,27 +213,6 @@ namespace CamadaApresentacao
             this.botoes();
             this.Habilitar(true);
             this.Limpar();
-        }
-
-        private void chkDeletar_CheckedChanged(object sender, EventArgs e)
-        {
-            if (chkDeletar.Checked)
-            {
-                this.dataLista.Columns[0].Visible = true;
-            }
-            else
-            {
-                this.dataLista.Columns[0].Visible = false;
-            }
-        }
-
-        private void dataLista_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.ColumnIndex == dataLista.Columns["Deletar"].Index)
-            {
-                DataGridViewCheckBoxCell ChkDeletar = (DataGridViewCheckBoxCell)dataLista.Rows[e.RowIndex].Cells["Deletar"];
-                ChkDeletar.Value = !Convert.ToBoolean(ChkDeletar.Value);
-            }
         }
 
         private void btnDeletar_Click(object sender, EventArgs e)
@@ -261,7 +231,7 @@ namespace CamadaApresentacao
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             Codigo = Convert.ToString(row.Cells[1].Value);
-                            Resp = NCategoria.Excluir(Convert.ToInt32(Codigo));
+                            Resp = NApresentacao.Excluir(Convert.ToInt32(Codigo));
 
                             if (Resp.Equals("OK"))
                             {
@@ -280,6 +250,27 @@ namespace CamadaApresentacao
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+        }
+
+        private void chkDeletar_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkDeletar.Checked)
+            {
+                this.dataLista.Columns[0].Visible = true;
+            }
+            else
+            {
+                this.dataLista.Columns[0].Visible = false;
+            }
+        }
+
+        private void dataLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == dataLista.Columns["Deletar"].Index)
+            {
+                DataGridViewCheckBoxCell ChkDeletar = (DataGridViewCheckBoxCell)dataLista.Rows[e.RowIndex].Cells["Deletar"];
+                ChkDeletar.Value = !Convert.ToBoolean(ChkDeletar.Value);
             }
         }
     }
