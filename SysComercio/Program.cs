@@ -17,7 +17,7 @@ namespace SysComercio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmApresentacao());
+            Application.Run(frmProduto.GetInstancia());
         }
     }
 }

@@ -21,7 +21,7 @@ namespace CamadaApresentacao
         public frmApresentacao()
         {
             InitializeComponent();
-            this.ttMensagem.SetToolTip(this.txtNome, "Insira o nome da ");
+            this.ttMensagem.SetToolTip(this.txtNome, "Insira o nome da Apresentação");
         }
 
         //Mostrar mensagem de confirmação
