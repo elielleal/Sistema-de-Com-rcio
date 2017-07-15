@@ -14,3 +14,4 @@ C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentac
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmApresentacao.resources
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmProduto.resources
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmBuscarCategoria.resources
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmFornecedor.resources
