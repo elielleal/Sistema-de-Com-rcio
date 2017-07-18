@@ -61,6 +61,7 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.cbBusca = new System.Windows.Forms.ComboBox();
             this.dataLista = new System.Windows.Forms.DataGridView();
             this.Deletar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkDeletar = new System.Windows.Forms.CheckBox();
@@ -69,7 +70,6 @@
             this.btnDeletar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbBusca = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dbcomercioDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
@@ -395,6 +395,18 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listar";
             // 
+            // cbBusca
+            // 
+            this.cbBusca.FormattingEnabled = true;
+            this.cbBusca.Items.AddRange(new object[] {
+            "Empresa",
+            "Documento"});
+            this.cbBusca.Location = new System.Drawing.Point(8, 9);
+            this.cbBusca.Name = "cbBusca";
+            this.cbBusca.Size = new System.Drawing.Size(103, 21);
+            this.cbBusca.TabIndex = 9;
+            this.cbBusca.SelectedIndexChanged += new System.EventHandler(this.cbBusca_SelectedIndexChanged);
+            // 
             // dataLista
             // 
             this.dataLista.AllowUserToAddRows = false;
@@ -493,18 +505,6 @@
             this.label1.Size = new System.Drawing.Size(177, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Fornecedores";
-            // 
-            // cbBusca
-            // 
-            this.cbBusca.FormattingEnabled = true;
-            this.cbBusca.Items.AddRange(new object[] {
-            "Empresa",
-            "Documento"});
-            this.cbBusca.Location = new System.Drawing.Point(8, 9);
-            this.cbBusca.Name = "cbBusca";
-            this.cbBusca.Size = new System.Drawing.Size(103, 21);
-            this.cbBusca.TabIndex = 9;
-            this.cbBusca.SelectedIndexChanged += new System.EventHandler(this.cbBusca_SelectedIndexChanged);
             // 
             // frmFornecedor
             // 

@@ -44,6 +44,7 @@
     <Compile Include="NApresentacao.cs" />
     <Compile Include="NCategoria.cs" />
     <Compile Include="NFornecedor.cs" />
+    <Compile Include="NFuncionario.cs" />
     <Compile Include="NProduto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

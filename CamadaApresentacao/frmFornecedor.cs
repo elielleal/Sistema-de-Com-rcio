@@ -139,8 +139,14 @@ namespace CamadaApresentacao
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            this.BuscarNome();
-            this.BuscarDocumento();
+            if (cbBusca.Text.Equals("Empresa"))
+            {
+                this.BuscarNome();
+            }
+            else if (cbBusca.Text.Equals("Documento"))
+            {
+                this.BuscarDocumento();
+            }
         }
 
         private void btnNovo_Click(object sender, EventArgs e)

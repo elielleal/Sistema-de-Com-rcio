@@ -72,6 +72,24 @@
     <Compile Include="frmFornecedor.Designer.cs">
       <DependentUpon>frmFornecedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuncionario.Designer.cs">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +130,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmFornecedor.resx">
       <DependentUpon>frmFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFuncionario.resx">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProduto.resx">
       <DependentUpon>frmProduto.cs</DependentUpon>
@@ -203,7 +230,50 @@
     <Folder Include="Resources2\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Windows-Media-Center-icon2.png" />
+    <None Include="Resources\Windows-Media-Center-icon1.png" />
+    <None Include="Resources\tool-edit-icon1.png" />
+    <None Include="Resources\user login.png" />
+    <None Include="Resources\Windows-Media-Center-icon.png" />
+    <None Include="Resources\tool-edit-icon.png" />
     <None Include="Resources\noImage.png" />
+    <None Include="Resources\1481080190_deliverables.png" />
+    <None Include="Resources\1481080265_shopping_cart.png" />
+    <None Include="Resources\1481080293_Money.png" />
+    <None Include="Resources\1481080316_system-search.png" />
+    <None Include="Resources\File-System-icon.png" />
+    <None Include="Resources\CinemaDisplay-icon.png" />
+    <None Include="Resources\Categories-preferences-system-icon.png" />
+    <None Include="Resources\Alarm-Error-icon.png" />
+    <None Include="Resources\1500300144f93fb98352b6855ccf42a45250698064.jpg" />
+    <None Include="Resources\15003003831c45692d9ca5f872eb6d18b8bc735362.jpg" />
+    <None Include="Resources\15003006190780fd98fd9827b354400eaf56dbb7f4.jpg" />
+    <None Include="Resources\PadLock-icon.png" />
+    <None Include="Resources\PadLock-icon %281%29.png" />
+    <None Include="Resources\Lock-icon %281%29.png" />
+    <None Include="Resources\36561078-tecnologia-cerchio-e-freccia-sfondo.jpg" />
+    <None Include="Resources\15003019396543486615dd9b6f4c618ea575d5fdfb.jpg" />
+    <None Include="Resources\Person-Male-Light-icon.png" />
+    <None Include="Resources\150032726217c38b409c5d48ebe491c3f15665e442.jpg" />
+    <None Include="Resources\150032745117c38b409c5d48ebe491c3f15665e442.jpg" />
+    <None Include="Resources\1481080190_deliverables1.png" />
+    <None Include="Resources\CinemaDisplay-icon1.png" />
+    <None Include="Resources\Alarm-Error-icon1.png" />
+    <None Include="Resources\Alarm-Error-icon2.png" />
+    <None Include="Resources\File-System-icon1.png" />
+    <None Include="Resources\Alarm-Error-icon3.png" />
+    <None Include="Resources\Male-user-warning-icon.png" />
+    <None Include="Resources\Male-User-Warning-icon %281%29.png" />
+    <None Include="Resources\default-icon.png" />
+    <None Include="Resources\default-icon1.png" />
+    <None Include="Resources\default-icon2.png" />
+    <None Include="Resources\default-icon3.png" />
+    <None Include="Resources\Keys-icon.png" />
+    <None Include="Resources\default-icon4.png" />
+    <None Include="Resources\Keys-icon1.png" />
+    <None Include="Resources\default-icon5.png" />
+    <None Include="Resources\Keys-icon2.png" />
+    <None Include="Resources\default-icon6.png" />
     <Content Include="Resources\semimagem.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
