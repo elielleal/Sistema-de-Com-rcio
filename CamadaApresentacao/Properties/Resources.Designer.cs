@@ -63,6 +63,16 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _128141_simple_red_square_icon_alphanumeric_information4_sc49 {
+            get {
+                object obj = ResourceManager.GetObject("128141-simple-red-square-icon-alphanumeric-information4-sc49", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1481080190_deliverables {
             get {
                 object obj = ResourceManager.GetObject("1481080190_deliverables", resourceCulture);
@@ -106,6 +116,16 @@ namespace CamadaApresentacao.Properties {
         internal static System.Drawing.Bitmap _1481080316_system_search {
             get {
                 object obj = ResourceManager.GetObject("1481080316_system-search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1481313373_sign_add {
+            get {
+                object obj = ResourceManager.GetObject("1481313373_sign-add", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,6 +256,16 @@ namespace CamadaApresentacao.Properties {
         internal static System.Drawing.Bitmap Alarm_Error_icon3 {
             get {
                 object obj = ResourceManager.GetObject("Alarm-Error-icon3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap business_male_female_users {
+            get {
+                object obj = ResourceManager.GetObject("business_male_female_users", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,6 +433,26 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap female_user_warning_icon {
+            get {
+                object obj = ResourceManager.GetObject("female-user-warning-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap File_System_icon {
             get {
                 object obj = ResourceManager.GetObject("File-System-icon", resourceCulture);
@@ -426,6 +476,46 @@ namespace CamadaApresentacao.Properties {
         internal static System.Drawing.Bitmap Gakuseisean_Ivista_2_Start_Menu_Search {
             get {
                 object obj = ResourceManager.GetObject("Gakuseisean-Ivista-2-Start-Menu-Search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Get_Info {
+            get {
+                object obj = ResourceManager.GetObject("Get Info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap get_info_7 {
+            get {
+                object obj = ResourceManager.GetObject("get-info-7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap get_info_71 {
+            get {
+                object obj = ResourceManager.GetObject("get-info-71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_information {
+            get {
+                object obj = ResourceManager.GetObject("icon-information", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,9 +743,39 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Toolbar_Regular_Get_Info_icon {
+            get {
+                object obj = ResourceManager.GetObject("Toolbar-Regular-Get-Info-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Toolbar_Regular_Get_Info_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("Toolbar-Regular-Get-Info-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Treetog_Junior_Printer {
             get {
                 object obj = ResourceManager.GetObject("Treetog-Junior-Printer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_female_icon {
+            get {
+                object obj = ResourceManager.GetObject("user-female-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

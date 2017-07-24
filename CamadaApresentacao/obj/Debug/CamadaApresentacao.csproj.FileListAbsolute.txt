@@ -18,3 +18,6 @@ C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentac
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmFuncionario.resources
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmPrincipal.resources
 C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmLogin.resources
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmEntrada.resources
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmVerProdutoEntrada.resources
+C:\Users\ELIEL\Desktop\SysComercio\CamadaApresentacao\obj\Debug\CamadaApresentacao.frmVerFornecedorEntrada.resources

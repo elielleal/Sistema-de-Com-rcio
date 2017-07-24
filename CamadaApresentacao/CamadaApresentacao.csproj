@@ -66,6 +66,12 @@
     <Compile Include="frmCategoria.Designer.cs">
       <DependentUpon>frmCategoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntrada.Designer.cs">
+      <DependentUpon>frmEntrada.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,18 @@
     </Compile>
     <Compile Include="frmProduto.Designer.cs">
       <DependentUpon>frmProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerFornecedorEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerFornecedorEntrada.Designer.cs">
+      <DependentUpon>frmVerFornecedorEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerProdutoEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerProdutoEntrada.Designer.cs">
+      <DependentUpon>frmVerProdutoEntrada.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -128,6 +146,9 @@
     <EmbeddedResource Include="frmCategoria.resx">
       <DependentUpon>frmCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEntrada.resx">
+      <DependentUpon>frmEntrada.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFornecedor.resx">
       <DependentUpon>frmFornecedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProduto.resx">
       <DependentUpon>frmProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerFornecedorEntrada.resx">
+      <DependentUpon>frmVerFornecedorEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerProdutoEntrada.resx">
+      <DependentUpon>frmVerProdutoEntrada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -230,6 +257,9 @@
     <Folder Include="Resources2\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Toolbar-Regular-Get-Info-icon1.png" />
+    <None Include="Resources\Toolbar-Regular-Get-Info-icon.png" />
+    <None Include="Resources\user-female-icon.png" />
     <None Include="Resources\Windows-Media-Center-icon2.png" />
     <None Include="Resources\Windows-Media-Center-icon1.png" />
     <None Include="Resources\tool-edit-icon1.png" />
@@ -274,6 +304,15 @@
     <None Include="Resources\default-icon5.png" />
     <None Include="Resources\Keys-icon2.png" />
     <None Include="Resources\default-icon6.png" />
+    <None Include="Resources\1481313373_sign-add.png" />
+    <None Include="Resources\female-user-warning-icon.png" />
+    <None Include="Resources\business_male_female_users.png" />
+    <None Include="Resources\Get Info.ico" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\get-info-7.png" />
+    <None Include="Resources\128141-simple-red-square-icon-alphanumeric-information4-sc49.png" />
+    <None Include="Resources\icon-information.png" />
+    <None Include="Resources\get-info-71.png" />
     <Content Include="Resources\semimagem.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

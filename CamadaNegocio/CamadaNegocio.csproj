@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="NApresentacao.cs" />
     <Compile Include="NCategoria.cs" />
+    <Compile Include="NEntrada.cs" />
     <Compile Include="NFornecedor.cs" />
     <Compile Include="NFuncionario.cs" />
     <Compile Include="NProduto.cs" />

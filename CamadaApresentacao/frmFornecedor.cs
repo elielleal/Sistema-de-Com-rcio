@@ -246,7 +246,7 @@ namespace CamadaApresentacao
             this.eNovo = false;
             this.eEditar = false;
             this.botoes();
-            this.Habilitar(true);
+            this.Habilitar(false);
             this.Limpar();
         }
 

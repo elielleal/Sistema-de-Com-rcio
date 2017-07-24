@@ -17,12 +17,10 @@ namespace CamadaApresentacao
         public string Nome = "";
         public string Sobrenome = "";
         public string Acesso = "";
-      
 
         public frmPrincipal()
         {
             InitializeComponent();
-            
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -74,7 +72,7 @@ namespace CamadaApresentacao
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TS.Visible = toolBarToolStripMenuItem.Checked;
+            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -110,6 +108,21 @@ namespace CamadaApresentacao
             }
         }
 
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            GestaoUsuario();
+            lbNome.Text = Nome.ToLower();
+            lbSobrenome.Text = Sobrenome;
+            lbAcesso.Text = Acesso;
+        }
+
+        private void produtoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmProduto frm = frmProduto.GetInstancia();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -122,16 +135,16 @@ namespace CamadaApresentacao
             frm.Show();
         }
 
-        private void apresentaçõesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void produtosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmApresentacao frm = new frmApresentacao();
+            frmProduto frm = frmProduto.GetInstancia();
             frm.MdiParent = this;
             frm.Show();
         }
 
-        private void produtosToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void apresentaçãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmProduto frm = frmProduto.GetInstancia();
+            frmApresentacao frm = new frmApresentacao();
             frm.MdiParent = this;
             frm.Show();
         }
@@ -176,12 +189,19 @@ namespace CamadaApresentacao
             }
         }
 
-        private void frmPrincipal_Load(object sender, EventArgs e)
+        private void fornecedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            GestaoUsuario();
-            lbNome.Text = Nome.ToLower();
-            lbSobrenome.Text = Sobrenome;
-            lbAcesso.Text = Acesso;
+            frmFornecedor frm = new frmFornecedor();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void entradaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEntrada frm = frmEntrada.GetInstancia();
+            frm.MdiParent = this;
+            frm.Show();
+            frm.idfuncionario = Convert.ToInt32(this.IdFuncionario);
         }
     }
 }

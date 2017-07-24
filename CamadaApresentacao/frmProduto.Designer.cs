@@ -36,28 +36,17 @@
             this.Deletar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.chkDeletar = new System.Windows.Forms.CheckBox();
             this.lblTotal = new System.Windows.Forms.Label();
-            this.btnImprimir = new System.Windows.Forms.Button();
-            this.btnDeletar = new System.Windows.Forms.Button();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cbApresentacao = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnBuscarCategoria = new System.Windows.Forms.Button();
             this.txtCategoria = new System.Windows.Forms.TextBox();
             this.txtIdCategoria = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnCarregar = new System.Windows.Forms.Button();
-            this.pxImagem = new System.Windows.Forms.PictureBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnNovo = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnSalvar = new System.Windows.Forms.Button();
             this.txtDescricao = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtId = new System.Windows.Forms.TextBox();
@@ -70,15 +59,26 @@
             this.errorIcone = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttMensagem = new System.Windows.Forms.ToolTip(this.components);
             this.categoriaTableAdapter = new CamadaApresentacao.dbcomercioDataSetTableAdapters.CategoriaTableAdapter();
+            this.btnImprimir = new System.Windows.Forms.Button();
+            this.btnDeletar = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnBuscarCategoria = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnCarregar = new System.Windows.Forms.Button();
+            this.pxImagem = new System.Windows.Forms.PictureBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataLista)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pxImagem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbcomercioDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pxImagem)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -153,50 +153,6 @@
             this.lblTotal.Size = new System.Drawing.Size(35, 13);
             this.lblTotal.TabIndex = 5;
             this.lblTotal.Text = "label3";
-            // 
-            // btnImprimir
-            // 
-            this.btnImprimir.BackColor = System.Drawing.Color.White;
-            this.btnImprimir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnImprimir.Image = global::CamadaApresentacao.Properties.Resources.Print_icon;
-            this.btnImprimir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnImprimir.Location = new System.Drawing.Point(300, 7);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(56, 72);
-            this.btnImprimir.TabIndex = 4;
-            this.btnImprimir.Text = "Imprimir";
-            this.btnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnImprimir.UseVisualStyleBackColor = false;
-            // 
-            // btnDeletar
-            // 
-            this.btnDeletar.BackColor = System.Drawing.Color.White;
-            this.btnDeletar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDeletar.Image = global::CamadaApresentacao.Properties.Resources.delete_file_icon;
-            this.btnDeletar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDeletar.Location = new System.Drawing.Point(238, 7);
-            this.btnDeletar.Name = "btnDeletar";
-            this.btnDeletar.Size = new System.Drawing.Size(56, 72);
-            this.btnDeletar.TabIndex = 3;
-            this.btnDeletar.Text = "Deletar";
-            this.btnDeletar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnDeletar.UseVisualStyleBackColor = false;
-            this.btnDeletar.Click += new System.EventHandler(this.btnDeletar_Click);
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.White;
-            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar.Image = global::CamadaApresentacao.Properties.Resources.Start_Menu_Search_icon;
-            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBuscar.Location = new System.Drawing.Point(176, 7);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(56, 72);
-            this.btnBuscar.TabIndex = 2;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtBuscar
             // 
@@ -276,21 +232,6 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "Apresentação";
             // 
-            // btnBuscarCategoria
-            // 
-            this.btnBuscarCategoria.BackColor = System.Drawing.Color.White;
-            this.btnBuscarCategoria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBuscarCategoria.BackgroundImage")));
-            this.btnBuscarCategoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnBuscarCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBuscarCategoria.Location = new System.Drawing.Point(721, 60);
-            this.btnBuscarCategoria.Name = "btnBuscarCategoria";
-            this.btnBuscarCategoria.Size = new System.Drawing.Size(20, 20);
-            this.btnBuscarCategoria.TabIndex = 18;
-            this.btnBuscarCategoria.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnBuscarCategoria.UseVisualStyleBackColor = false;
-            this.btnBuscarCategoria.Click += new System.EventHandler(this.btnBuscarCategoria_Click);
-            // 
             // txtCategoria
             // 
             this.txtCategoria.Location = new System.Drawing.Point(600, 60);
@@ -314,47 +255,6 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Categoria";
             // 
-            // btnLimpar
-            // 
-            this.btnLimpar.BackColor = System.Drawing.Color.White;
-            this.btnLimpar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLimpar.BackgroundImage")));
-            this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLimpar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLimpar.Location = new System.Drawing.Point(685, 184);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(56, 53);
-            this.btnLimpar.TabIndex = 14;
-            this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLimpar.UseVisualStyleBackColor = false;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
-            // btnCarregar
-            // 
-            this.btnCarregar.BackColor = System.Drawing.Color.White;
-            this.btnCarregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCarregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCarregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCarregar.Image = global::CamadaApresentacao.Properties.Resources.inserir_imagem;
-            this.btnCarregar.Location = new System.Drawing.Point(685, 133);
-            this.btnCarregar.Name = "btnCarregar";
-            this.btnCarregar.Size = new System.Drawing.Size(56, 53);
-            this.btnCarregar.TabIndex = 13;
-            this.btnCarregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCarregar.UseVisualStyleBackColor = false;
-            this.btnCarregar.Click += new System.EventHandler(this.btnCarregar_Click);
-            // 
-            // pxImagem
-            // 
-            this.pxImagem.BackgroundImage = global::CamadaApresentacao.Properties.Resources.noImage;
-            this.pxImagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pxImagem.Location = new System.Drawing.Point(546, 136);
-            this.pxImagem.Name = "pxImagem";
-            this.pxImagem.Size = new System.Drawing.Size(120, 101);
-            this.pxImagem.TabIndex = 12;
-            this.pxImagem.TabStop = false;
-            // 
             // txtCodigo
             // 
             this.txtCodigo.Location = new System.Drawing.Point(79, 60);
@@ -370,66 +270,6 @@
             this.label6.Size = new System.Drawing.Size(40, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "Código";
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.White;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.Image = global::CamadaApresentacao.Properties.Resources.Actions_dialog_cancel_icon;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCancelar.Location = new System.Drawing.Point(412, 273);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(60, 72);
-            this.btnCancelar.TabIndex = 9;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnNovo
-            // 
-            this.btnNovo.BackColor = System.Drawing.Color.White;
-            this.btnNovo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNovo.Image = global::CamadaApresentacao.Properties.Resources.Document_Add_icon;
-            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnNovo.Location = new System.Drawing.Point(226, 273);
-            this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(56, 72);
-            this.btnNovo.TabIndex = 8;
-            this.btnNovo.Text = "Novo";
-            this.btnNovo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnNovo.UseVisualStyleBackColor = false;
-            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.BackColor = System.Drawing.Color.White;
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.Image = global::CamadaApresentacao.Properties.Resources.if_edit_file_853071;
-            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnEditar.Location = new System.Drawing.Point(288, 273);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(56, 72);
-            this.btnEditar.TabIndex = 7;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEditar.UseVisualStyleBackColor = false;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.BackColor = System.Drawing.Color.White;
-            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalvar.Image = global::CamadaApresentacao.Properties.Resources.Actions_document_save_icon;
-            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSalvar.Location = new System.Drawing.Point(350, 273);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(56, 72);
-            this.btnSalvar.TabIndex = 6;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSalvar.UseVisualStyleBackColor = false;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // txtDescricao
             // 
@@ -515,16 +355,177 @@
             // 
             this.categoriaTableAdapter.ClearBeforeFill = true;
             // 
+            // btnImprimir
+            // 
+            this.btnImprimir.BackColor = System.Drawing.Color.White;
+            this.btnImprimir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnImprimir.Image = global::CamadaApresentacao.Properties.Resources.Print_icon;
+            this.btnImprimir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnImprimir.Location = new System.Drawing.Point(300, 7);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(56, 72);
+            this.btnImprimir.TabIndex = 4;
+            this.btnImprimir.Text = "Imprimir";
+            this.btnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnImprimir.UseVisualStyleBackColor = false;
+            // 
+            // btnDeletar
+            // 
+            this.btnDeletar.BackColor = System.Drawing.Color.White;
+            this.btnDeletar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDeletar.Image = global::CamadaApresentacao.Properties.Resources.delete_file_icon;
+            this.btnDeletar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnDeletar.Location = new System.Drawing.Point(238, 7);
+            this.btnDeletar.Name = "btnDeletar";
+            this.btnDeletar.Size = new System.Drawing.Size(56, 72);
+            this.btnDeletar.TabIndex = 3;
+            this.btnDeletar.Text = "Deletar";
+            this.btnDeletar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnDeletar.UseVisualStyleBackColor = false;
+            this.btnDeletar.Click += new System.EventHandler(this.btnDeletar_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.White;
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.Image = global::CamadaApresentacao.Properties.Resources.Start_Menu_Search_icon;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnBuscar.Location = new System.Drawing.Point(176, 7);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(56, 72);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnBuscarCategoria
+            // 
+            this.btnBuscarCategoria.BackColor = System.Drawing.Color.White;
+            this.btnBuscarCategoria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBuscarCategoria.BackgroundImage")));
+            this.btnBuscarCategoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnBuscarCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuscarCategoria.Location = new System.Drawing.Point(721, 60);
+            this.btnBuscarCategoria.Name = "btnBuscarCategoria";
+            this.btnBuscarCategoria.Size = new System.Drawing.Size(20, 20);
+            this.btnBuscarCategoria.TabIndex = 18;
+            this.btnBuscarCategoria.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBuscarCategoria.UseVisualStyleBackColor = false;
+            this.btnBuscarCategoria.Click += new System.EventHandler(this.btnBuscarCategoria_Click);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.White;
+            this.btnLimpar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLimpar.BackgroundImage")));
+            this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLimpar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLimpar.Location = new System.Drawing.Point(685, 184);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(56, 53);
+            this.btnLimpar.TabIndex = 14;
+            this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnCarregar
+            // 
+            this.btnCarregar.BackColor = System.Drawing.Color.White;
+            this.btnCarregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCarregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCarregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCarregar.Image = global::CamadaApresentacao.Properties.Resources.inserir_imagem;
+            this.btnCarregar.Location = new System.Drawing.Point(685, 133);
+            this.btnCarregar.Name = "btnCarregar";
+            this.btnCarregar.Size = new System.Drawing.Size(56, 53);
+            this.btnCarregar.TabIndex = 13;
+            this.btnCarregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCarregar.UseVisualStyleBackColor = false;
+            this.btnCarregar.Click += new System.EventHandler(this.btnCarregar_Click);
+            // 
+            // pxImagem
+            // 
+            this.pxImagem.BackgroundImage = global::CamadaApresentacao.Properties.Resources.noImage;
+            this.pxImagem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pxImagem.Location = new System.Drawing.Point(546, 136);
+            this.pxImagem.Name = "pxImagem";
+            this.pxImagem.Size = new System.Drawing.Size(120, 101);
+            this.pxImagem.TabIndex = 12;
+            this.pxImagem.TabStop = false;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.White;
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.Image = global::CamadaApresentacao.Properties.Resources.Actions_dialog_cancel_icon;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCancelar.Location = new System.Drawing.Point(412, 273);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(60, 72);
+            this.btnCancelar.TabIndex = 9;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.BackColor = System.Drawing.Color.White;
+            this.btnNovo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNovo.Image = global::CamadaApresentacao.Properties.Resources.Document_Add_icon;
+            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNovo.Location = new System.Drawing.Point(226, 273);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(56, 72);
+            this.btnNovo.TabIndex = 8;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNovo.UseVisualStyleBackColor = false;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.Color.White;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditar.Image = global::CamadaApresentacao.Properties.Resources.if_edit_file_853071;
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEditar.Location = new System.Drawing.Point(288, 273);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(56, 72);
+            this.btnEditar.TabIndex = 7;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.BackColor = System.Drawing.Color.White;
+            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalvar.Image = global::CamadaApresentacao.Properties.Resources.Actions_document_save_icon;
+            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSalvar.Location = new System.Drawing.Point(350, 273);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(56, 72);
+            this.btnSalvar.TabIndex = 6;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
             // frmProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(793, 444);
+            this.ClientSize = new System.Drawing.Size(791, 444);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.Name = "frmProduto";
             this.Text = "Cadastro de Produtos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmProduto_FormClosed);
             this.Load += new System.EventHandler(this.frmProduto_Load);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -533,10 +534,10 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pxImagem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbcomercioDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pxImagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

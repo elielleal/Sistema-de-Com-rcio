@@ -360,5 +360,10 @@ namespace CamadaApresentacao
             frmBuscarCategoria form = new frmBuscarCategoria();
             form.ShowDialog();
         }
+
+        private void frmProduto_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _Instancia = null;
+        }
     }
 }

@@ -46,5 +46,10 @@ namespace CamadaApresentacao
                 this.Hide();
             }
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
