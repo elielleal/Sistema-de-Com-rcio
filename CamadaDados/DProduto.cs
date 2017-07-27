@@ -382,5 +382,27 @@ namespace CamadaDados
 
             return DtResultado;
         }
+
+        //metodo Estoque Produtos
+        public DataTable EstoqueProduto()
+        {
+            DataTable DtResultado = new DataTable("produto");
+            SqlConnection sqlCon = new SqlConnection();
+            try
+            {
+                sqlCon.ConnectionString = Conexao.Cn;
+                SqlCommand sqlCmd = new SqlCommand();
+                sqlCmd.Connection = sqlCon;
+                sqlCmd.CommandText = "spestoque_produtos";
+                sqlCmd.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter sqlDat = new SqlDataAdapter(sqlCmd);
+                sqlDat.Fill(DtResultado);
+            }
+            catch (Exception ex)
+            {
+                DtResultado = null;
+            }
+            return DtResultado;
+        }
     }
 }

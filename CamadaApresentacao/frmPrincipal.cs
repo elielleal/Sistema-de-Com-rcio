@@ -114,6 +114,11 @@ namespace CamadaApresentacao
             lbNome.Text = Nome.ToLower();
             lbSobrenome.Text = Sobrenome;
             lbAcesso.Text = Acesso;
+
+            frmVenda frm = frmVenda.GetInstancia();
+            frm.MdiParent = this;
+            frm.Show();
+            frm.idfuncionario = Convert.ToInt32(this.IdFuncionario);
         }
 
         private void produtoToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -202,6 +207,56 @@ namespace CamadaApresentacao
             frm.MdiParent = this;
             frm.Show();
             frm.idfuncionario = Convert.ToInt32(this.IdFuncionario);
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCliente frm = new frmCliente();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void funcionáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFuncionario frm = new frmFuncionario();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void vendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVenda frm = frmVenda.GetInstancia();
+            frm.MdiParent = this;
+            frm.Show();
+            frm.idfuncionario = Convert.ToInt32(this.IdFuncionario);
+        }
+
+        private void estoqueDeProdutosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Consultas.frmConsulta_Estoque_Produtos frm = new Consultas.frmConsulta_Estoque_Produtos();
+            frm.ShowDialog();
+        }
+
+        private void vendaPoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVenda frm = frmVenda.GetInstancia();
+            frm.MdiParent = this;
+            frm.OcultarTab();
+            frm.Show();
+            
+        }
+
+        private void comprasPorDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEntrada frm = frmEntrada.GetInstancia();
+            frm.MdiParent = this;
+            frm.OcultarTab();
+            frm.Show();
+        }
+
+        private void backupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.dropbox.com/s/okm3vemdy66ec16/dbcomercio%20.rar?dl=0");
         }
     }
 }

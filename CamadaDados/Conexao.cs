@@ -8,6 +8,6 @@ namespace CamadaDados
 {
     class Conexao
     {
-        public static string Cn = @"Data Source = .\sqlexpress; Initial Catalog = dbcomercio; Integrated Security=true";
+        public static string Cn = Properties.Settings.Default.cn;
     }
 }

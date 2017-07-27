@@ -62,5 +62,12 @@ namespace CamadaNegocio
             Obj.TextoBuscar = textobuscar;
             return Obj.BuscarNome(Obj);
         }
+
+        //metodo Estoque Produto
+        public static DataTable EstoqueProduto()
+
+        {
+            return new DProduto().EstoqueProduto();
+        }
     }
 }

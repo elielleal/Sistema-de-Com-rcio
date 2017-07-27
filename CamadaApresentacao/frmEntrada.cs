@@ -462,5 +462,14 @@ namespace CamadaApresentacao
             this.MostrarDetalheEntrada();
             this.tabControl1.SelectedIndex = 1;
         }
+
+        public void OcultarTab()
+        {
+            this.tabControl1.Controls.Remove(tabPage2);
+            this.btnDeletar.Visible = false;
+            this.chkDeletar.Visible = false;
+            this.btnImprimir.Visible = false;
+            this.dataLista.Enabled = true;
+        }
     }
 }

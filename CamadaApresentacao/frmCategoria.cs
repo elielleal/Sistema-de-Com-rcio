@@ -76,7 +76,7 @@ namespace CamadaApresentacao
         //mostrar no data grid
         private void Mostrar()
         {
-            this.dataLista.DataSource = NApresentacao.Mostrar();
+            this.dataLista.DataSource = NCategoria.Mostrar();
             this.ocultarColunas();
             lblTotal.Text = "Total de Registro: " + Convert.ToString(dataLista.Rows.Count);
         }

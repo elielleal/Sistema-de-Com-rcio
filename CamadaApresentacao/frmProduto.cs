@@ -365,5 +365,11 @@ namespace CamadaApresentacao
         {
             _Instancia = null;
         }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            frmRelatorioProduto frm = new frmRelatorioProduto();
+            frm.ShowDialog();
+        }
     }
 }

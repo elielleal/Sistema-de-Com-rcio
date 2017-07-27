@@ -70,11 +70,11 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuSistema = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pxAcesso = new System.Windows.Forms.PictureBox();
-            this.pxUsuario = new System.Windows.Forms.PictureBox();
             this.lbAcesso = new System.Windows.Forms.Label();
             this.lbSobrenome = new System.Windows.Forms.Label();
             this.lbNome = new System.Windows.Forms.Label();
+            this.pxAcesso = new System.Windows.Forms.PictureBox();
+            this.pxUsuario = new System.Windows.Forms.PictureBox();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -104,7 +104,7 @@
             // TSCompras
             // 
             this.TSCompras.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.TSCompras.Image = global::CamadaApresentacao.Properties.Resources._1481080293_Money;
+            this.TSCompras.Image = global::CamadaApresentacao.Properties.Resources.Green_Dollar_icon1;
             this.TSCompras.ImageTransparentColor = System.Drawing.Color.Black;
             this.TSCompras.Name = "TSCompras";
             this.TSCompras.Size = new System.Drawing.Size(23, 22);
@@ -118,7 +118,7 @@
             // TSVendas
             // 
             this.TSVendas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.TSVendas.Image = global::CamadaApresentacao.Properties.Resources._1481080265_shopping_cart;
+            this.TSVendas.Image = global::CamadaApresentacao.Properties.Resources._1481080265_shopping_cart3;
             this.TSVendas.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.TSVendas.Name = "TSVendas";
             this.TSVendas.Size = new System.Drawing.Size(23, 22);
@@ -167,7 +167,7 @@
             this.categoriasToolStripMenuItem,
             this.apresentaçãoToolStripMenuItem});
             this.MenuProdutos.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuProdutos.Image = global::CamadaApresentacao.Properties.Resources._1481080190_deliverables;
+            this.MenuProdutos.Image = global::CamadaApresentacao.Properties.Resources.icone_carga;
             this.MenuProdutos.Name = "MenuProdutos";
             this.MenuProdutos.Size = new System.Drawing.Size(84, 20);
             this.MenuProdutos.Text = "Produtos";
@@ -199,7 +199,7 @@
             this.vendaToolStripMenuItem,
             this.clienteToolStripMenuItem});
             this.MenuVendas.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuVendas.Image = global::CamadaApresentacao.Properties.Resources._1481080265_shopping_cart;
+            this.MenuVendas.Image = global::CamadaApresentacao.Properties.Resources._1481080265_shopping_cart2;
             this.MenuVendas.Name = "MenuVendas";
             this.MenuVendas.Size = new System.Drawing.Size(75, 20);
             this.MenuVendas.Text = "Vendas";
@@ -207,14 +207,16 @@
             // vendaToolStripMenuItem
             // 
             this.vendaToolStripMenuItem.Name = "vendaToolStripMenuItem";
-            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.vendaToolStripMenuItem.Text = "Venda";
+            this.vendaToolStripMenuItem.Click += new System.EventHandler(this.vendaToolStripMenuItem_Click);
             // 
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
-            this.clienteToolStripMenuItem.Text = "Cliente";
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.clienteToolStripMenuItem.Text = "Clientes";
+            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // MenuCompras
             // 
@@ -222,7 +224,7 @@
             this.entradaToolStripMenuItem,
             this.fornecedoresToolStripMenuItem});
             this.MenuCompras.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuCompras.Image = global::CamadaApresentacao.Properties.Resources._1481080293_Money;
+            this.MenuCompras.Image = global::CamadaApresentacao.Properties.Resources.Green_Dollar_icon;
             this.MenuCompras.Name = "MenuCompras";
             this.MenuCompras.Size = new System.Drawing.Size(85, 20);
             this.MenuCompras.Text = "Compras";
@@ -258,18 +260,21 @@
             this.vendaPoToolStripMenuItem.Name = "vendaPoToolStripMenuItem";
             this.vendaPoToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.vendaPoToolStripMenuItem.Text = "Vendas por Data";
+            this.vendaPoToolStripMenuItem.Click += new System.EventHandler(this.vendaPoToolStripMenuItem_Click);
             // 
             // comprasPorDataToolStripMenuItem
             // 
             this.comprasPorDataToolStripMenuItem.Name = "comprasPorDataToolStripMenuItem";
             this.comprasPorDataToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.comprasPorDataToolStripMenuItem.Text = "Compras por Data";
+            this.comprasPorDataToolStripMenuItem.Click += new System.EventHandler(this.comprasPorDataToolStripMenuItem_Click);
             // 
             // estoqueDeProdutosToolStripMenuItem
             // 
             this.estoqueDeProdutosToolStripMenuItem.Name = "estoqueDeProdutosToolStripMenuItem";
             this.estoqueDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.estoqueDeProdutosToolStripMenuItem.Text = "Estoque de Produtos";
+            this.estoqueDeProdutosToolStripMenuItem.Click += new System.EventHandler(this.estoqueDeProdutosToolStripMenuItem_Click);
             // 
             // MenuFerramentas
             // 
@@ -286,14 +291,15 @@
             this.bDToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.backupToolStripMenuItem});
             this.bDToolStripMenuItem.Name = "bDToolStripMenuItem";
-            this.bDToolStripMenuItem.Size = new System.Drawing.Size(90, 22);
+            this.bDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bDToolStripMenuItem.Text = "BD";
             // 
             // backupToolStripMenuItem
             // 
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.backupToolStripMenuItem.Text = "Backup";
+            this.backupToolStripMenuItem.Click += new System.EventHandler(this.backupToolStripMenuItem_Click);
             // 
             // MenuConfiguracoes
             // 
@@ -310,6 +316,7 @@
             this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
             this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.funcionáriosToolStripMenuItem.Text = "Funcionários";
+            this.funcionáriosToolStripMenuItem.Click += new System.EventHandler(this.funcionáriosToolStripMenuItem_Click);
             // 
             // MenuExibir
             // 
@@ -414,30 +421,6 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
-            // pxAcesso
-            // 
-            this.pxAcesso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pxAcesso.BackColor = System.Drawing.Color.Tomato;
-            this.pxAcesso.BackgroundImage = global::CamadaApresentacao.Properties.Resources.Keys_icon2;
-            this.pxAcesso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pxAcesso.Location = new System.Drawing.Point(691, 24);
-            this.pxAcesso.Name = "pxAcesso";
-            this.pxAcesso.Size = new System.Drawing.Size(23, 22);
-            this.pxAcesso.TabIndex = 21;
-            this.pxAcesso.TabStop = false;
-            // 
-            // pxUsuario
-            // 
-            this.pxUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pxUsuario.BackColor = System.Drawing.Color.Tomato;
-            this.pxUsuario.BackgroundImage = global::CamadaApresentacao.Properties.Resources.default_icon6;
-            this.pxUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pxUsuario.Location = new System.Drawing.Point(559, 24);
-            this.pxUsuario.Name = "pxUsuario";
-            this.pxUsuario.Size = new System.Drawing.Size(23, 22);
-            this.pxUsuario.TabIndex = 20;
-            this.pxUsuario.TabStop = false;
-            // 
             // lbAcesso
             // 
             this.lbAcesso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -473,6 +456,30 @@
             this.lbNome.Size = new System.Drawing.Size(35, 12);
             this.lbNome.TabIndex = 17;
             this.lbNome.Text = "label1";
+            // 
+            // pxAcesso
+            // 
+            this.pxAcesso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pxAcesso.BackColor = System.Drawing.Color.Tomato;
+            this.pxAcesso.BackgroundImage = global::CamadaApresentacao.Properties.Resources.Keys_icon2;
+            this.pxAcesso.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pxAcesso.Location = new System.Drawing.Point(691, 24);
+            this.pxAcesso.Name = "pxAcesso";
+            this.pxAcesso.Size = new System.Drawing.Size(23, 22);
+            this.pxAcesso.TabIndex = 21;
+            this.pxAcesso.TabStop = false;
+            // 
+            // pxUsuario
+            // 
+            this.pxUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pxUsuario.BackColor = System.Drawing.Color.Tomato;
+            this.pxUsuario.BackgroundImage = global::CamadaApresentacao.Properties.Resources.default_icon6;
+            this.pxUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pxUsuario.Location = new System.Drawing.Point(559, 24);
+            this.pxUsuario.Name = "pxUsuario";
+            this.pxUsuario.Size = new System.Drawing.Size(23, 22);
+            this.pxUsuario.TabIndex = 20;
+            this.pxUsuario.TabStop = false;
             // 
             // frmPrincipal
             // 

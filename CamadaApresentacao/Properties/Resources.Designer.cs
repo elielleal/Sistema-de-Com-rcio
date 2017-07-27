@@ -73,6 +73,16 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _13cd6b74c477076bfee7430806a32706 {
+            get {
+                object obj = ResourceManager.GetObject("13cd6b74c477076bfee7430806a32706", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1481080190_deliverables {
             get {
                 object obj = ResourceManager.GetObject("1481080190_deliverables", resourceCulture);
@@ -96,6 +106,36 @@ namespace CamadaApresentacao.Properties {
         internal static System.Drawing.Bitmap _1481080265_shopping_cart {
             get {
                 object obj = ResourceManager.GetObject("1481080265_shopping_cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1481080265_shopping_cart1 {
+            get {
+                object obj = ResourceManager.GetObject("1481080265_shopping_cart1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1481080265_shopping_cart2 {
+            get {
+                object obj = ResourceManager.GetObject("1481080265_shopping_cart2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1481080265_shopping_cart3 {
+            get {
+                object obj = ResourceManager.GetObject("1481080265_shopping_cart3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +303,39 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Alarm_Error_icon4 {
+            get {
+                object obj = ResourceManager.GetObject("Alarm-Error-icon4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap business_male_female_users {
             get {
                 object obj = ResourceManager.GetObject("business_male_female_users", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_Delete_icon {
+            get {
+                object obj = ResourceManager.GetObject("Button-Delete-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carrinho_de_compras {
+            get {
+                object obj = ResourceManager.GetObject("carrinho_de_compras", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +386,46 @@ namespace CamadaApresentacao.Properties {
         internal static System.Drawing.Bitmap Creative_Freedom_Shimmer_Document_Add {
             get {
                 object obj = ResourceManager.GetObject("Creative-Freedom-Shimmer-Document-Add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap credit_card_icon {
+            get {
+                object obj = ResourceManager.GetObject("credit-card-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap credit_card_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("credit-card-icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap credit_card_icon__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("credit-card-icon (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap credit_card_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("credit-card-icon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,6 +553,46 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap empty_shopping_cart_icon {
+            get {
+                object obj = ResourceManager.GetObject("empty-shopping-cart-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap empty_shopping_cart_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("empty-shopping-cart-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Estoquebanner {
+            get {
+                object obj = ResourceManager.GetObject("Estoquebanner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Estoquebanner1 {
+            get {
+                object obj = ResourceManager.GetObject("Estoquebanner1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap female_user_warning_icon {
             get {
                 object obj = ResourceManager.GetObject("female-user-warning-icon", resourceCulture);
@@ -513,9 +663,39 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Green_Dollar_icon {
+            get {
+                object obj = ResourceManager.GetObject("Green-Dollar-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_Dollar_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("Green-Dollar-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_information {
             get {
                 object obj = ResourceManager.GetObject("icon-information", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icone_carga {
+            get {
+                object obj = ResourceManager.GetObject("icone-carga", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -693,6 +873,16 @@ namespace CamadaApresentacao.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap palet_03_icon {
+            get {
+                object obj = ResourceManager.GetObject("palet-03-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Person_Male_Light_icon {
             get {
                 object obj = ResourceManager.GetObject("Person-Male-Light-icon", resourceCulture);
@@ -716,6 +906,16 @@ namespace CamadaApresentacao.Properties {
         internal static System.Drawing.Bitmap Start_Menu_Search_icon {
             get {
                 object obj = ResourceManager.GetObject("Start-Menu-Search-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TNT_Shipping_Box {
+            get {
+                object obj = ResourceManager.GetObject("TNT Shipping Box", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

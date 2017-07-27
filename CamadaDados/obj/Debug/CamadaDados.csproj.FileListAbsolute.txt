@@ -3,3 +3,4 @@ C:\Users\ELIEL\Desktop\SysComercio\CamadaDados\bin\Debug\CamadaDados.pdb
 C:\Users\ELIEL\Desktop\SysComercio\CamadaDados\obj\Debug\CamadaDados.csprojResolveAssemblyReference.cache
 C:\Users\ELIEL\Desktop\SysComercio\CamadaDados\obj\Debug\CamadaDados.dll
 C:\Users\ELIEL\Desktop\SysComercio\CamadaDados\obj\Debug\CamadaDados.pdb
+C:\Users\ELIEL\Desktop\SysComercio\CamadaDados\bin\Debug\CamadaDados.dll.config

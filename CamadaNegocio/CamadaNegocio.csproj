@@ -43,10 +43,12 @@
     <Compile Include="Class1.cs" />
     <Compile Include="NApresentacao.cs" />
     <Compile Include="NCategoria.cs" />
+    <Compile Include="NCliente.cs" />
     <Compile Include="NEntrada.cs" />
     <Compile Include="NFornecedor.cs" />
     <Compile Include="NFuncionario.cs" />
     <Compile Include="NProduto.cs" />
+    <Compile Include="NVenda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
