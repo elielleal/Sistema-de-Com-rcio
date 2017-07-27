@@ -34,6 +34,7 @@
             this.Deletar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblTotal = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataLista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,6 +87,7 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
+            this.lblTotal.ForeColor = System.Drawing.Color.Tomato;
             this.lblTotal.Location = new System.Drawing.Point(646, 48);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(35, 13);
@@ -100,18 +102,34 @@
             this.txtBuscar.TabIndex = 10;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.White;
+            this.btnSair.BackgroundImage = global::CamadaApresentacao.Properties.Resources.Button_Delete_icon;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSair.Location = new System.Drawing.Point(712, 8);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(32, 30);
+            this.btnSair.TabIndex = 16;
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // frmVerFornecedorEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(756, 299);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbBusca);
             this.Controls.Add(this.dataLista);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.txtBuscar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmVerFornecedorEntrada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Buscar Fornecedor";
@@ -130,5 +148,6 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn Deletar;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.Button btnSair;
     }
 }

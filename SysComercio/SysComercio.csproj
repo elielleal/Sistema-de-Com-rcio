@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\ELIEL\Desktop\</PublishUrl>
+    <PublishUrl>C:\Users\ELIEL\Desktop\SysComercio\Sistema Finalizado\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -25,7 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Sistema Comércio</ProductName>
     <PublisherName>Eliel Leal de Andrade</PublisherName>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>if_system_95323.ico</ApplicationIcon>
+    <ApplicationIcon>Jommans-Briefness-File-System.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>61D99B9AFA6DA6279EBCAAE4D8AEBA93620266BD</ManifestCertificateThumbprint>
@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="if_system_95323.ico" />
+    <Content Include="Jommans-Briefness-File-System.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

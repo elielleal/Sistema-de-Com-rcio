@@ -39,5 +39,10 @@ namespace CamadaApresentacao.Consultas
         {
             this.Mostrar();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

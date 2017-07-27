@@ -39,8 +39,9 @@
             this.dataLista = new System.Windows.Forms.DataGridView();
             this.Deletar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblTotal = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.btnImprimir = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorIcone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbcomercioDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
@@ -128,15 +129,6 @@
             this.lblTotal.TabIndex = 5;
             this.lblTotal.Text = "label3";
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(12, 43);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(772, 391);
-            this.tabControl1.TabIndex = 7;
-            // 
             // btnImprimir
             // 
             this.btnImprimir.BackColor = System.Drawing.Color.White;
@@ -151,15 +143,42 @@
             this.btnImprimir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnImprimir.UseVisualStyleBackColor = false;
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Location = new System.Drawing.Point(12, 43);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(772, 391);
+            this.tabControl1.TabIndex = 7;
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.White;
+            this.btnSair.BackgroundImage = global::CamadaApresentacao.Properties.Resources.Button_Delete_icon;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSair.Location = new System.Drawing.Point(752, -1);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(32, 30);
+            this.btnSair.TabIndex = 16;
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // frmConsulta_Estoque_Produtos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(796, 444);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmConsulta_Estoque_Produtos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consultar Estoque ";
             this.Load += new System.EventHandler(this.frmConsulta_Estoque_Produtos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorIcone)).EndInit();
@@ -188,5 +207,6 @@
         private dbcomercioDataSet dbcomercioDataSet;
         private System.Windows.Forms.BindingSource categoriaBindingSource;
         private System.Windows.Forms.ToolTip ttMensagem;
+        private System.Windows.Forms.Button btnSair;
     }
 }

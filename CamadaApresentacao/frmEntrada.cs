@@ -173,8 +173,8 @@ namespace CamadaApresentacao
 
         private void frmEntrada_Load(object sender, EventArgs e)
         {
-            this.Top = 0;
-            this.Left = 0;
+            //this.Top = 0;
+            //this.Left = 0;
             this.Mostrar();
             this.Habilitar(false);
             this.botoes();

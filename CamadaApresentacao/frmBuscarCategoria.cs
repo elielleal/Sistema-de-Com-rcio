@@ -62,5 +62,10 @@ namespace CamadaApresentacao
             form.setCategoria(par1, par2);
             this.Hide();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

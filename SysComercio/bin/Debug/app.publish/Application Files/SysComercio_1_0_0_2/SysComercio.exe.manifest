@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SysComercio.exe" version="1.0.0.0" publicKeyToken="d988b6962a5a23b8" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="if_system_95323.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="SysComercio.exe" version="1.0.0.2" publicKeyToken="d988b6962a5a23b8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Jommans-Briefness-File-System.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="SysComercio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -58,14 +58,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CamadaApresentacao.dll" size="2757632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CamadaApresentacao.dll" size="2759168">
       <assemblyIdentity name="CamadaApresentacao" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>704hAl0wPVBNQGE57hK7UMv1hDwYftE6Ezb1UqVvIQw=</dsig:DigestValue>
+        <dsig:DigestValue>H6S0LlkOsJfTW2+kvz6Ln5Zd5xl4gajP8EhLoJemvjM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -238,14 +238,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SysComercio.exe" size="127968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SysComercio.exe" size="204256">
       <assemblyIdentity name="SysComercio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IsU+0iihNkljKnOcE4VGRyVNDDUsNYljeuo8d+hlgxs=</dsig:DigestValue>
+        <dsig:DigestValue>voVMYBtpWAToVwJg3XZtDLnSsNWNvgRFYhFVH6B+8XM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -256,6 +256,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>E3zLjgt9EHzAQNsOl8WMTmdHXMbAuZ3Yv9zeBWCFhQo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Jommans-Briefness-File-System.ico" size="196057">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dn1pWRIz6YXABu1pdzKfElUUo22aKW8suiQdcgHr0D4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SysComercio.exe.config" size="189">
@@ -284,4 +293,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=DESKTOP-D8Q3T1R\ELIEL" issuerKeyHash="74a3670a7b3210ea24d4097e9774a9f5347c8f5b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VGW9HXevtxf2w4kIbUBEkWBxkv6nIjT9aBsXhi1Ci64=</DigestValue></Reference></SignedInfo><SignatureValue>EAr5m5WxJhOUkJ6i/FRQirGw66oFM7gcKjn7V7R5+b3FcTg6UOI4oaHL9+3pXUdMVJ9NUE6CEN5iGKJG4jmUEKfW9qgJ/kRJ7Ed0x9uUUSqIpnYTT2ZhHIhppZUDAiZqVQZVQl2OGolj99dUnx0GdZvHbhlp1XxuuJN2WWVcSC8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wDkLttNk0RRIk4vUEqwCFd7LlE/qIr5o9qoH8Tzq663+SdwEZB0T6oCyYe1HLuB0K2672hWkmOW09Yk/x+890LOMPIui9k8RzROk6zZ+xou8nOfx/zMjV3tdnDmuJ3Dg2t0kmfB98aTGLJLqhWVAYOGi6h7yh8X297mPSR1jvGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ae8b422d86171b68fd3422a7fe9271609144406d0889c3f617b7af771dbd6554" Description="" Url=""><as:assemblyIdentity name="SysComercio.exe" version="1.0.0.0" publicKeyToken="d988b6962a5a23b8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-D8Q3T1R\ELIEL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/k4uLDv2WsXCp0VFnmy6FmhOaUO9+7/BURs0wecJF+I=</DigestValue></Reference></SignedInfo><SignatureValue>i5nJiWMfxE4txCe0UK/q29WZ1lZCGn/3rXhjwlZi4ArNHGh9vne8lg3fdskoNf5Vq7l50RODn764nvexxnnusaMPDuYIiEfd8leoOwX/lqSX1Wj7t2RX0tiuPvY6YcCFE8zBcT50RrUTWxdhVj0Q3L5Glp29h47c8BYA7kijtU8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wDkLttNk0RRIk4vUEqwCFd7LlE/qIr5o9qoH8Tzq663+SdwEZB0T6oCyYe1HLuB0K2672hWkmOW09Yk/x+890LOMPIui9k8RzROk6zZ+xou8nOfx/zMjV3tdnDmuJ3Dg2t0kmfB98aTGLJLqhWVAYOGi6h7yh8X297mPSR1jvGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGG0WAa7iiLBP5VdlqOz7EDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAOABRADMAVAAxAFIAXABFAEwASQBFAEwwHhcNMTcwNzI3MDA0NjE2WhcNMTgwNzI3MDY0NjE2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAOABRADMAVAAxAFIAXABFAEwASQBFAEwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMA5C7bTZNEUSJOL1BKsAhXey5RP6iK+aPaqB/E86uut/kncBGQdE+qAsmHtRy7gdCtuu9oVpJjltPWJP8fvPdCzjDyLovZPEc0TpOs2fsaLvJzn8f8zI1d7XZw5ridw4NrdJJnwffGkxiyS6oVlQGDhouoe8ofF9ve5j0kdY7xhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKXIBADW7buMP6NT2qZ6gRsoykn8hGMdeA2dNh4wq1sZR8HDdP9u8EgVrmQG9aMPlo0NHR+KVNd65nsQs5hxyAzXtg8QWwNkDljS/YmGNr2xaSjo6P9741Ssoy5o+/my2l8JKzVhYxMtoOY28WuEYQR7QF8WTDytRKsy0TbYxItU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-D8Q3T1R\ELIEL" issuerKeyHash="74a3670a7b3210ea24d4097e9774a9f5347c8f5b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yQxs8EcV4mRCaerEjbxWSoBL284iLYcDdsfw9fitYcw=</DigestValue></Reference></SignedInfo><SignatureValue>qGPhTIZPddC0oA29w3jcaJF4Z686de6pEH8Y0D0FxM4JSdkCvF3ZCfxp4Elybr8EM97RXaWPBXacaspHmaR2/9Kam6psmiQEAQfOIQL72hd1x3BLJQ+NWm4rtJxquFsL0q3+WFIbb/x6m9rX/7bIWzS74od3Lwbuf+/yblmKD6A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wDkLttNk0RRIk4vUEqwCFd7LlE/qIr5o9qoH8Tzq663+SdwEZB0T6oCyYe1HLuB0K2672hWkmOW09Yk/x+890LOMPIui9k8RzROk6zZ+xou8nOfx/zMjV3tdnDmuJ3Dg2t0kmfB98aTGLJLqhWVAYOGi6h7yh8X297mPSR1jvGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cc61adf8f5f0c77603872d22cedb4b804a56bc8dc4ea694264e21547f06c0cc9" Description="" Url=""><as:assemblyIdentity name="SysComercio.exe" version="1.0.0.2" publicKeyToken="d988b6962a5a23b8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-D8Q3T1R\ELIEL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VwGFNfVyUI8uZnarkKrKIsQb6GwLcHHQJG6zgzjeSks=</DigestValue></Reference></SignedInfo><SignatureValue>pVgooXLiq7yDNSK8S239WdDOyfZcQAsFb9yFzseP7wHgu7Fs2xD3qj2t54flnZG0pUykYAzCNgGvyuicXNRPjOnluLRT71nyB5P/fLwJNmmKF1YwaDeOpuFBb5szMMTZjFSNP/BR0l7/r7Rrfpfhz+RxOmRFX1QLyxkgbkTeZpA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wDkLttNk0RRIk4vUEqwCFd7LlE/qIr5o9qoH8Tzq663+SdwEZB0T6oCyYe1HLuB0K2672hWkmOW09Yk/x+890LOMPIui9k8RzROk6zZ+xou8nOfx/zMjV3tdnDmuJ3Dg2t0kmfB98aTGLJLqhWVAYOGi6h7yh8X297mPSR1jvGE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGG0WAa7iiLBP5VdlqOz7EDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAOABRADMAVAAxAFIAXABFAEwASQBFAEwwHhcNMTcwNzI3MDA0NjE2WhcNMTgwNzI3MDY0NjE2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAOABRADMAVAAxAFIAXABFAEwASQBFAEwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMA5C7bTZNEUSJOL1BKsAhXey5RP6iK+aPaqB/E86uut/kncBGQdE+qAsmHtRy7gdCtuu9oVpJjltPWJP8fvPdCzjDyLovZPEc0TpOs2fsaLvJzn8f8zI1d7XZw5ridw4NrdJJnwffGkxiyS6oVlQGDhouoe8ofF9ve5j0kdY7xhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAKXIBADW7buMP6NT2qZ6gRsoykn8hGMdeA2dNh4wq1sZR8HDdP9u8EgVrmQG9aMPlo0NHR+KVNd65nsQs5hxyAzXtg8QWwNkDljS/YmGNr2xaSjo6P9741Ssoy5o+/my2l8JKzVhYxMtoOY28WuEYQR7QF8WTDytRKsy0TbYxItU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

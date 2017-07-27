@@ -381,7 +381,9 @@
             this.ClientSize = new System.Drawing.Size(572, 335);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmApresentacao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Apresentacao";
             this.Load += new System.EventHandler(this.frmApresentacao_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dbcomercioDataSet)).EndInit();

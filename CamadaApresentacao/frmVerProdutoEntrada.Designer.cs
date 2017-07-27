@@ -34,6 +34,7 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataLista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,18 +101,34 @@
             this.lblTotal.TabIndex = 16;
             this.lblTotal.Text = "label3";
             // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.White;
+            this.btnSair.BackgroundImage = global::CamadaApresentacao.Properties.Resources.Button_Delete_icon;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSair.Location = new System.Drawing.Point(727, 8);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(32, 30);
+            this.btnSair.TabIndex = 17;
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // frmVerProdutoEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(767, 291);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataLista);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.label2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmVerProdutoEntrada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Solucionar Produto";
@@ -130,5 +147,6 @@
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Button btnSair;
     }
 }

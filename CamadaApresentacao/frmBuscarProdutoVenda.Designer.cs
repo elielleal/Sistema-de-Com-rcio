@@ -133,6 +133,7 @@
             this.Controls.Add(this.txtBuscar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBuscarProdutoVenda";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Buscar Produto Venda";
             this.Load += new System.EventHandler(this.frmBuscarProdutoVenda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataLista)).EndInit();

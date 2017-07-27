@@ -41,6 +41,14 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtData = new System.Windows.Forms.DateTimePicker();
+            this.cbAcesso = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtSobrenome = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cbSexo = new System.Windows.Forms.ComboBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
@@ -68,14 +76,6 @@
             this.ttMensagem = new System.Windows.Forms.ToolTip(this.components);
             this.categoriaTableAdapter = new CamadaApresentacao.dbcomercioDataSetTableAdapters.CategoriaTableAdapter();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.txtSobrenome = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.cbAcesso = new System.Windows.Forms.ComboBox();
-            this.dtData = new System.Windows.Forms.DateTimePicker();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataLista)).BeginInit();
             this.tabPage2.SuspendLayout();
@@ -262,6 +262,73 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Funcionários";
+            // 
+            // dtData
+            // 
+            this.dtData.Location = new System.Drawing.Point(647, 87);
+            this.dtData.Name = "dtData";
+            this.dtData.Size = new System.Drawing.Size(223, 20);
+            this.dtData.TabIndex = 30;
+            // 
+            // cbAcesso
+            // 
+            this.cbAcesso.FormattingEnabled = true;
+            this.cbAcesso.Items.AddRange(new object[] {
+            "Vendedor",
+            "Gerente",
+            "Administrador"});
+            this.cbAcesso.Location = new System.Drawing.Point(647, 27);
+            this.cbAcesso.Name = "cbAcesso";
+            this.cbAcesso.Size = new System.Drawing.Size(223, 21);
+            this.cbAcesso.TabIndex = 29;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(551, 35);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(42, 13);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "Acesso";
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Location = new System.Drawing.Point(647, 174);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(223, 20);
+            this.txtSenha.TabIndex = 27;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(551, 176);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(38, 13);
+            this.label12.TabIndex = 26;
+            this.label12.Text = "Senha";
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(144, 169);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(355, 20);
+            this.txtUsuario.TabIndex = 25;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(72, 177);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Usuário";
+            // 
+            // txtSobrenome
+            // 
+            this.txtSobrenome.Location = new System.Drawing.Point(647, 57);
+            this.txtSobrenome.Name = "txtSobrenome";
+            this.txtSobrenome.Size = new System.Drawing.Size(223, 20);
+            this.txtSobrenome.TabIndex = 23;
             // 
             // label11
             // 
@@ -496,73 +563,6 @@
             this.tabControl1.Size = new System.Drawing.Size(961, 351);
             this.tabControl1.TabIndex = 5;
             // 
-            // txtSobrenome
-            // 
-            this.txtSobrenome.Location = new System.Drawing.Point(647, 57);
-            this.txtSobrenome.Name = "txtSobrenome";
-            this.txtSobrenome.Size = new System.Drawing.Size(223, 20);
-            this.txtSobrenome.TabIndex = 23;
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(144, 169);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(355, 20);
-            this.txtUsuario.TabIndex = 25;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(72, 177);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "Usuário";
-            // 
-            // txtSenha
-            // 
-            this.txtSenha.Location = new System.Drawing.Point(647, 174);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(223, 20);
-            this.txtSenha.TabIndex = 27;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(551, 176);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 13);
-            this.label12.TabIndex = 26;
-            this.label12.Text = "Senha";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(551, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(42, 13);
-            this.label13.TabIndex = 28;
-            this.label13.Text = "Acesso";
-            // 
-            // cbAcesso
-            // 
-            this.cbAcesso.FormattingEnabled = true;
-            this.cbAcesso.Items.AddRange(new object[] {
-            "Vendedor",
-            "Gerente",
-            "Administrador"});
-            this.cbAcesso.Location = new System.Drawing.Point(647, 27);
-            this.cbAcesso.Name = "cbAcesso";
-            this.cbAcesso.Size = new System.Drawing.Size(223, 21);
-            this.cbAcesso.TabIndex = 29;
-            // 
-            // dtData
-            // 
-            this.dtData.Location = new System.Drawing.Point(647, 87);
-            this.dtData.Name = "dtData";
-            this.dtData.Size = new System.Drawing.Size(223, 20);
-            this.dtData.TabIndex = 30;
-            // 
             // frmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -571,10 +571,11 @@
             this.ClientSize = new System.Drawing.Size(984, 404);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmFuncionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Funcionário";
             this.Load += new System.EventHandler(this.frmFuncionario_Load);
             this.tabPage1.ResumeLayout(false);

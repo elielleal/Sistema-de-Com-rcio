@@ -514,10 +514,11 @@
             this.ClientSize = new System.Drawing.Size(984, 404);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmFornecedor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Fornecedores";
             this.Load += new System.EventHandler(this.frmFornecedor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dbcomercioDataSet)).EndInit();
